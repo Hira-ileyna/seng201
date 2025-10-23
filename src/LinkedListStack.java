@@ -22,17 +22,18 @@ public class LinkedListStack <T> {
         size++;
     }
 
-    /*public boolean isEmpty() {
+    public boolean isEmpty() {
         return top == null;
     }
 
     public T pop() {
         if(isEmpty()){
             throw new EmptyStackException();
+
         }
         T data = top.data;
         top = top.next;
         size--;
         return data;
-    }*/
+    }
 }
